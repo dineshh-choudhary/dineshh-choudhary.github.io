@@ -31,10 +31,10 @@ const work = [
     location: 'Bengaluru, India',
     startDate: '2019-12-01',
     endDate: '2021-08-16',
-    summary: 'Flipkart is an engineering powerhouse that has redefined the online shopping landscape in India. With its cutting-edge technology stack, data-driven decision-making, and a relentless focus on user experience, Flipkart has consistently delivered exceptional services to millions of customers. Its engineering teams work tirelessly to optimize supply chain logistics, develop user-friendly interfaces, and harness the power of data analytics to provide personalized shopping experiences. I worked as a Software Development Engineer II at Flipkart in Bengaluru, India, from December 2019 to August 2021. During my tenure, I made significant contributions to the User Insights team, which was responsible for generating valuable insights from user information.',
+    summary: 'Flipkart is an engineering powerhouse that has redefined the online shopping landscape in India. With its cutting-edge technology stack, data-driven decision-making, and a relentless focus on user experience, I worked as a Software Development Engineer II at Flipkart in Bengaluru, India, from December 2019 to August 2021. During my tenure, I made significant contributions to the User Insights team, which was responsible for generating valuable insights from user information.',
     highlights: [
-    'Developed a client library that allowed users to search for lookalike users based on seed user information. I implemented multiple optimization techniques and preprocessing steps to ensure fast retrieval times, enhancing the efficiency of user data analysis.',
-    'Designed and implemented a message auditing service that logged messages pushed to Kafka topics. This service provided custom aggregation and generated reports, contributing to improved data tracking and analysis within the organization.',
+    'Developed a client library that empowered users to conduct lookalike user searches based on seed user information. This involved the implementation of various optimization techniques and preprocessing steps, resulting in significantly improved data retrieval speed and overall efficiency for user data analysis',
+    'Architected and deployed a message auditing service designed to log messages transmitted to Kafka topics. This service offered customizable data aggregation capabilities and automated report generation, thereby strengthening data tracking and analytical capabilities throughout the organization\'s technical ecosystem.',
     ],
     },
     {
@@ -46,8 +46,8 @@ const work = [
     endDate: '2019-12-01',
     summary: 'I served as a Software Development Engineer I at Flipkart in Bengaluru, India, from July 2018 to December 2019. During this period, I was part of the Warehouse team, where I actively contributed to addressing complex supply chain challenges and played a crucial role in the successful release of critical business features.',
     highlights: [
-    'Contributed to the success of critical business features, including Supplier Return, e-commerce readiness, pre-packaging, and Green Packaging, by addressing complex supply chain problems. My work directly impacted the efficiency and effectiveness of Flipkart\'s operations in these areas.',
-    'Single-handedly executed a database migration from one data center to another, achieving zero data loss and minimal downtime. This migration was a significant achievement that demonstrated my ability to handle complex technical challenges effectively.',
+    'Enhanced critical business features through collaborative problem-solving in complex supply chain scenarios, demonstrating leadership qualities',
+    'Successfully led a zero-data-loss database migration, highlighting technical proficiency and teamwork.',
     ],
     },
 ];

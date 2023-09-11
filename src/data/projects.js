@@ -6,12 +6,9 @@ const data = [
     image: '/images/projects/algoTrading.jpg',
     date: '2023-05-01',
     desc:
-      'Created a Platform to '
-      + 'Trade in NSE with some defined strategy '
-      + 'Easily add and modify different Strategies for Options or Equity '
-      + 'or Use the Out of the Box Strategies based on Different Technical Parameters '
-      + 'Created using Python, Flask, Pandas, numpy '
-      + 'Going to be Open Source Soon ',
+      'Developed an NSE trading platform with customizable strategies for both Options and Equity. '
+      +'Users can easily add, modify, or utilize built-in strategies based on various technical parameters. '
+      +'This platform, built with Python, Flask, Pandas, and NumPy, is set to become open source in the near future.',
     },
   {
     title: 'Automated Trading',
@@ -19,10 +16,7 @@ const data = [
     image: '/images/projects/algoTrading2.jpg',
     date: '2020-09-20',
     desc:
-      'Created a Platform to '
-      + 'Trade in Financial Market just from Telegram '
-      + 'Can Support Multiple Brokers and Automated Trade Execution with Stoploss Monitoring '
-      + 'Created using Python, Flask, mySQL, Pandas, numpy ',
+      'Designed a Telegram-based platform for financial market trading, offering multi-broker support and automated trade execution with stop-loss monitoring. Developed using Python, Flask, MySQL, Pandas, and NumPy.',
   },
   {
     title: 'Tracking User\'s Search Thought Process',
@@ -31,8 +25,7 @@ const data = [
     image: '/images/projects/thoughts.jpg',
     date: '2018-06-28',
     desc:
-      'The purpose of this project is to convert the experienced user’s thought process of collecting information into knowledge that can be shared and provided to the unexperienced users. '
-      + 'We used to capture experienced user’s thoughts using chrome extension and pass them to inexperienced user through a search engine. ',
+      'The aim of this project is to transform the knowledge acquisition process of experienced users into shareable insights for those who are less experienced. We achieve this by capturing the insights of experienced users via a Chrome extension and delivering them to less experienced users through a search engine.',
   },
 ];
 

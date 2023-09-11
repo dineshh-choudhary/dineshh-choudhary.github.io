@@ -19,10 +19,10 @@ const SideBar = () => (
 
     <section className="blurb">
       <h2>About</h2>
-      <p>Hi, I am Dinesh Choudhary. I am a <a href="https://nitkkr.ac.in/">NIT KURUKSHETRA</a> graduate,
-        and Member of Technical Staff at <a href="https://salesforce.com">Salesforce</a>. Previously,
-        I was a Software Development Engineer at  <a href="https://Flipkart.com">Flipkart</a>
-        
+      <p>Hi, I'm Dinesh Choudhary, a proud graduate of <a href="https://nitkkr.ac.in/">NIT KURUKSHETRA.</a> My journey in the tech industry has been an exciting one, 
+        with experiences ranging from being a Software Development Engineer at <a href="https://Flipkart.com">Flipkart </a> 
+         to my current role as a Member of Technical Staff at <a href="https://salesforce.com">Salesforce</a>. 
+        I'm passionate about technology and dedicated to creating innovative solutions.
       </p>
       <ul className="actions">
         <li>
