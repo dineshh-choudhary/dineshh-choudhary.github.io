@@ -19,11 +19,10 @@ const SideBar = () => (
 
     <section className="blurb">
       <h2>About</h2>
-      <p>Hi, I am Dinesh Choudhary. I am a <a href="https://icme.stanford.edu/">Stanford ICME</a> graduate, YC Alumni,
-        and the VP of Engineering at <a href="https://smileidentity.com">Smile Identity</a>. Previously,
-        I was the co-founder and CTO of <a href="https://arthena.com">Arthena</a>
-        , co-founder of <a href="https://matroid.com">Matroid</a>, and worked at
-        {' '}<a href="https://planet.com">Planet</a> and <a href="https://facebook.com">Facebook</a>.
+      <p>Hi, I am Dinesh Choudhary. I am a <a href="https://nitkkr.ac.in/">NIT KURUKSHETRA</a> graduate,
+        and Member of Technical Staff at <a href="https://salesforce.com">Salesforce</a>. Previously,
+        I was a Software Development Engineer at  <a href="https://Flipkart.com">Flipkart</a>
+        
       </p>
       <ul className="actions">
         <li>

@@ -1,47 +1,38 @@
 // TODO Add a couple lines about each project
 const data = [
   {
-    title: 'Nearest Dollar',
-    subtitle: '2015 BVP Hackathon',
-    image: '/images/projects/nearestdollar.jpg',
-    date: '2015-11-20',
+    title: 'Algorithm  Trading',
+    subtitle: 'Algorithm  Trading',
+    image: '/images/projects/algoTrading.jpg',
+    date: '2023-05-01',
     desc:
-      'Built for a social impact hackathon. '
-      + 'NearestDollar connected to your bank accounts, credit cards, '
-      + 'or debit cards and rounded up your purchases to donate the balance to '
-      + 'the charity of your choice.',
+      'Created a Platform to '
+      + 'Trade in NSE with some defined strategy '
+      + 'Easily add and modify different Strategies for Options or Equity '
+      + 'or Use the Out of the Box Strategies based on Different Technical Parameters '
+      + 'Created using Python, Flask, Pandas, numpy '
+      + 'Going to be Open Source Soon ',
+    },
+  {
+    title: 'Automated Trading',
+    subtitle: 'Automated Trading',
+    image: '/images/projects/algoTrading2.jpg',
+    date: '2020-09-20',
+    desc:
+      'Created a Platform to '
+      + 'Trade in Financial Market just from Telegram '
+      + 'Can Support Multiple Brokers and Automated Trade Execution with Stoploss Monitoring '
+      + 'Created using Python, Flask, mySQL, Pandas, numpy ',
   },
   {
-    title: 'Harvest',
-    subtitle: 'Won 3rd. place in 2015 Techcrunch Disrupt SF Hackathon',
-    link: 'https://devpost.com/software/harvest',
-    image: '/images/projects/harvest.jpg',
-    date: '2015-09-20',
+    title: 'Tracking User\'s Search Thought Process',
+    subtitle: 'Tracking User\'s Search Thought Process',
+    // link: 'http://www.spacepotato.org',
+    image: '/images/projects/thoughts.jpg',
+    date: '2018-06-28',
     desc:
-      'Won ~ $7000 in prizes for an advanced, low cost monitoring solution '
-      + 'for crops. Harvest was designed to catch irrigation leaks, overwatering, '
-      + 'and nutrient deficiencies at an affordable price for the developing world.',
-  },
-  {
-    title: 'Space Potato',
-    subtitle: 'A kickstarter funded potato powered weather balloon.',
-    link: 'http://www.spacepotato.org',
-    image: '/images/projects/spacepotato.jpg',
-    date: '2015-06-28',
-    desc:
-      'Launched a potato battery powered weather balloon with two cameras '
-      + 'and gps transponder. Resulting photos were published in a coffee table book. '
-      + 'You can email me for a copy.',
-  },
-  {
-    title: 'Cat Detector',
-    subtitle: 'A convolutional neural network to classify cats! (and dogs)',
-    image: '/images/projects/catdetector.jpg',
-    date: '2015-05-15',
-    desc:
-      'Trained a convolutional neural network to classify between ~ 80 cats breeds. '
-      + 'Over 60,000 cats were classified before server bills made the project too expensive '
-      + 'to continue hosting.',
+      'The purpose of this project is to convert the experienced user’s thought process of collecting information into knowledge that can be shared and provided to the unexperienced users. '
+      + 'We used to capture experienced user’s thoughts using chrome extension and pass them to inexperienced user through a search engine. ',
   },
 ];
 
