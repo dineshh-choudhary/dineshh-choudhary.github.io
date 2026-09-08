@@ -14,9 +14,9 @@ const About = () => {
           .then((r) => r.text())
           .then(setMarkdown);
       });
-  });
+  }, []);
 
-  const count = markdown.split(/\s+/)
+  const count = (markdown || '').split(/\s+/)
     .map((s) => s.replace(/\W/g, ''))
     .filter((s) => s.length).length;
 
@@ -32,9 +32,11 @@ const About = () => {
             <p>(in about {count} words)</p>
           </div>
         </header>
-        <Markdown>
-          {markdown}
-        </Markdown>
+        {markdown ? (
+          <Markdown>
+            {markdown}
+          </Markdown>
+        ) : null}
       </article>
     </Main>
   );

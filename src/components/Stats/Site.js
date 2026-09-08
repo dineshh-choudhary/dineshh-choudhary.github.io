@@ -12,15 +12,17 @@ const Stats = () => {
       'https://api.github.com/repos/mldangelo/personal-site',
     );
     const resData = await res.json();
-    setResponseData(
-      initialData.map((field) => ({
-        ...field,
-        // update value if value was returned by call to github
-        value: Object.keys(resData).includes(field.key)
-          ? resData[field.key]
-          : field.value,
-      })),
-    );
+    if (resData) {
+      setResponseData(
+        initialData.map((field) => ({
+          ...field,
+          // update value if value was returned by call to github
+          value: Object.keys(resData).includes(field.key)
+            ? resData[field.key]
+            : field.value,
+        })),
+      );
+    }
   }, []);
 
   useEffect(() => {

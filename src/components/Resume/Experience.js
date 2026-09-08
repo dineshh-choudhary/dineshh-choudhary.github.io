@@ -19,14 +19,16 @@ const Experience = ({ data }) => (
 );
 
 Experience.propTypes = {
-  data: PropTypes.arrayOf(PropTypes.exact({
+  data: PropTypes.arrayOf(PropTypes.shape({
     name: PropTypes.string,
     position: PropTypes.string,
     url: PropTypes.string,
     startDate: PropTypes.string,
     endDate: PropTypes.string,
+    location: PropTypes.string,
     highlights: PropTypes.arrayOf(PropTypes.string),
     summary: PropTypes.string,
+    technologies: PropTypes.arrayOf(PropTypes.string),
   })),
 };
 

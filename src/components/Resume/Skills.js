@@ -60,9 +60,9 @@ const Skills = ({ skills, categories }) => {
     <div className="skills">
       <div className="link-to" id="skills" />
       <div className="title">
-        <h3>Skills</h3>
-        <p>Note: I think these sections are silly, but everyone seems to have one.
-          Here is a *mostly* honest overview of my skills.
+        <h3>Technical Skills</h3>
+        <p>
+          A curated overview of core technical competencies across Generative AI, high-scale distributed systems, streaming architectures, and cloud infrastructure.
         </p>
       </div>
       <div className="skill-button-container">

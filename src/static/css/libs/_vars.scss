@@ -20,26 +20,26 @@
 
 // Font.
 	$font: (
-		family:						('Source Sans Pro', Helvetica, sans-serif),
-		family-fixed:				('Courier New', monospace),
-		family-heading:				('Raleway', Helvetica, sans-serif),
+		family:						(-apple-system, BlinkMacSystemFont, 'Inter', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif),
+		family-fixed:				('SFMono-Regular', Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace),
+		family-heading:				(-apple-system, BlinkMacSystemFont, 'Inter', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif),
 		weight:						400,
-		weight-bold:				700,
-		weight-heading:				400,
-		weight-heading-bold:		800,
-		weight-heading-extrabold:	900,
-		kerning-heading:			0.25em
+		weight-bold:				600,
+		weight-heading:				600,
+		weight-heading-bold:		700,
+		weight-heading-extrabold:	800,
+		kerning-heading:			-0.02em
 	);
 
 // Palette.
 	$palette: (
 		bg:							#ffffff,
-		bg-alt:						#f4f4f4,
-		fg:							#646464,
-		fg-bold:					#3c3b3b,
-		fg-light:					#aaaaaa,
-		border:						rgba(160,160,160,0.3),
-		border-bg:					rgba(160,160,160,0.075),
-		border-alt:					rgba(160,160,160,0.65),
-		accent:						#2e59ba
+		bg-alt:						#f8fafc,
+		fg:							#475569,
+		fg-bold:					#0f172a,
+		fg-light:					#94a3b8,
+		border:						#e2e8f0,
+		border-bg:					#f1f5f9,
+		border-alt:					#cbd5e1,
+		accent:						#4f46e5
 	);

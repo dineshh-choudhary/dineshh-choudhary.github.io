@@ -1,31 +1,30 @@
-// TODO Add a couple lines about each project
 const data = [
   {
-    title: 'Algorithm  Trading',
-    subtitle: 'Algorithm  Trading',
+    title: 'Algorithmic Trading Platform',
+    subtitle: 'Multi-strategy options & equity execution engine with LLM signal pipeline',
     image: '/images/projects/algoTrading.jpg',
-    date: '2023-05-01',
+    date: '2024-06-01',
+    tags: ['Python', 'Next.js', 'LLMs', 'AWS', 'NSE Options', 'Pandas'],
     desc:
-      'Developed an NSE trading platform with customizable strategies for both Options and Equity. '
-      +'Users can easily add, modify, or utilize built-in strategies based on various technical parameters. '
-      +'This platform, built with Python, Flask, Pandas, and NumPy, is set to become open source in the near future.',
-    },
-  {
-    title: 'Automated Trading',
-    subtitle: 'Automated Trading',
-    image: '/images/projects/algoTrading2.jpg',
-    date: '2020-09-20',
-    desc:
-      'Designed a Telegram-based platform for financial market trading, offering multi-broker support and automated trade execution with stop-loss monitoring. Developed using Python, Flask, MySQL, Pandas, and NumPy.',
+      'Architected a high-performance, multi-strategy algorithmic trading platform for NSE options and equity with a pluggable strategy framework allowing independent strategies to be configured, backtested, and deployed to live execution. Built an LLM-based signal generation pipeline that analyzes live news and market sentiment to surface alpha trading signals alongside quantitative indicators. Full-stack architecture with a Python backend and React/Next.js dashboard hosted on AWS.',
   },
   {
-    title: 'Tracking User\'s Search Thought Process',
-    subtitle: 'Tracking User\'s Search Thought Process',
-    // link: 'http://www.spacepotato.org',
+    title: 'Automated Trading Telegram Bot',
+    subtitle: 'Automated trade execution & risk management platform',
+    image: '/images/projects/algoTrading2.jpg',
+    date: '2020-09-20',
+    tags: ['Python', 'Flask', 'MySQL', 'Telegram API', 'Financial Markets'],
+    desc:
+      'Designed and engineered a Telegram-integrated trading engine offering multi-broker connectivity, real-time alert triggers, and automated trade order execution with automated stop-loss and profit target monitoring.',
+  },
+  {
+    title: 'Search Thought Process Capture',
+    subtitle: 'Knowledge discovery & search behavior capture system',
     image: '/images/projects/thoughts.jpg',
     date: '2018-06-28',
+    tags: ['JavaScript', 'Chrome Extensions', 'Information Retrieval', 'Python'],
     desc:
-      'The aim of this project is to transform the knowledge acquisition process of experienced users into shareable insights for those who are less experienced. We achieve this by capturing the insights of experienced users via a Chrome extension and delivering them to less experienced users through a search engine.',
+      'Engineered a system to transform the knowledge acquisition process of experienced domain researchers into shareable insights for beginners. Captured deep research journeys via a custom Chrome extension and delivered curated pathways through a targeted search discovery interface.',
   },
 ];
 

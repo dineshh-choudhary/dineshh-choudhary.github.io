@@ -24,7 +24,11 @@
 		}
 
 	body {
-		background: _palette(bg-alt);
+		background: #f8fafc;
+		background: radial-gradient(circle at top left, #f1f5f9 0%, #f8fafc 45%, #ffffff 100%);
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+		text-rendering: optimizeLegibility;
 
 		// Prevents animation/transition "flicker" on page load.
 		// Automatically added/removed by js/main.js.

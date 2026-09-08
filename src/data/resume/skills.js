@@ -1,137 +1,164 @@
 const skills = [
+  // AI / GenAI
   {
-    title: 'Javascript',
-    competency: 4,
-    category: ['Web Development', 'Languages', 'Javascript'],
+    title: 'Generative AI',
+    competency: 5,
+    category: ['AI / GenAI'],
   },
+  {
+    title: 'LLMs & Prompt Engineering',
+    competency: 5,
+    category: ['AI / GenAI'],
+  },
+  {
+    title: 'Agentic AI Systems',
+    competency: 5,
+    category: ['AI / GenAI'],
+  },
+  {
+    title: 'Retrieval-Augmented Generation (RAG)',
+    competency: 5,
+    category: ['AI / GenAI'],
+  },
+  {
+    title: 'Function / Tool Calling',
+    competency: 5,
+    category: ['AI / GenAI'],
+  },
+  {
+    title: 'Model Context Protocol (MCP)',
+    competency: 5,
+    category: ['AI / GenAI'],
+  },
+  {
+    title: 'LangChain',
+    competency: 4,
+    category: ['AI / GenAI'],
+  },
+
+  // Languages & Core
   {
     title: 'Java',
     competency: 5,
-    category: ['Languages'],
-  },
-  {
-    title: 'Scala',
-    competency: 3,
-    category: ['Web Development', 'Languages'],
-  },
-  {
-    title: 'Lightning Web Components',
-    competency: 3,
-    category: ['Web Development', 'Languages', 'Javascript'],
-  },
-  {
-    title: 'Node.JS',
-    competency: 3,
-    category: ['Web Development', 'Javascript'],
-  },
-  {
-    title: 'Heroku',
-    competency: 2,
-    category: ['Web Development', 'Tools'],
-  },
-  {
-    title: 'MongoDB',
-    competency: 4,
-    category: ['Web Development', 'Databases'],
-  },
-  {
-    title: 'ElasticSearch',
-    competency: 2,
-    category: ['Web Development', 'Databases'],
-  },
-  {
-    title: 'mySQL',
-    competency: 4,
-    category: ['Web Development', 'Databases', 'Languages'],
-  },
-  {
-    title: 'Redis',
-    competency: 3,
-    category: ['Web Development', 'Databases'],
-  },
-  {
-    title: 'Flask',
-    competency: 3,
-    category: ['Web Development', 'Python'],
-  },
-  {
-    title: 'Git/Mercurial',
-    competency: 3,
-    category: ['Tools'],
-  },
-  {
-    title: 'AWS',
-    competency: 3,
-    category: ['Tools', 'Web Development'],
-  },
-  {
-    title: 'Numpy',
-    competency: 3,
-    category: ['Data Science', 'Data Engineering', 'Python', 'ML Engineering'],
-  },
-  {
-    title: 'Jupyter',
-    competency: 3,
-    category: ['Data Science', 'Python'],
-  },
-  {
-    title: 'HTML + SASS/SCSS/CSS',
-    competency: 3,
-    category: ['Web Development', 'Languages'],
+    category: ['Languages & Core'],
   },
   {
     title: 'Python',
     competency: 5,
-    category: ['Languages', 'Python', 'ML Engineering'],
-  },
-  {
-    title: 'Ruby',
-    competency: 2,
-    category: ['Languages'],
-  },
-  {
-    title: 'Ruby on Rails',
-    competency: 3,
-    category: ['Web Development', 'Languages'],
+    category: ['Languages & Core'],
   },
   {
     title: 'C++',
-    competency: 1,
-    category: ['Languages'],
+    competency: 4,
+    category: ['Languages & Core'],
   },
   {
-    title: 'Pandas',
+    title: 'JavaScript / TypeScript',
+    competency: 4,
+    category: ['Languages & Core'],
+  },
+
+  // Data & Streaming
+  {
+    title: 'Kafka',
     competency: 5,
-    category: ['Data Engineering', 'ML Engineering', 'Python'],
+    category: ['Data & Streaming'],
   },
   {
-    title: 'Spark',
-    competency: 2,
-    category: ['Data Engineering', 'ML Engineering'],
+    title: 'MySQL',
+    competency: 4,
+    category: ['Data & Streaming'],
+  },
+  {
+    title: 'MongoDB',
+    competency: 4,
+    category: ['Data & Streaming'],
+  },
+  {
+    title: 'Redis',
+    competency: 4,
+    category: ['Data & Streaming'],
+  },
+  {
+    title: 'Elasticsearch',
+    competency: 4,
+    category: ['Data & Streaming'],
+  },
+  {
+    title: 'Apache Spark',
+    competency: 3,
+    category: ['Data & Streaming'],
+  },
+
+  // Frameworks
+  {
+    title: 'Spring Boot',
+    competency: 5,
+    category: ['Frameworks'],
+  },
+  {
+    title: 'React / Next.js',
+    competency: 4,
+    category: ['Frameworks'],
+  },
+  {
+    title: 'Lightning Web Components (LWC)',
+    competency: 4,
+    category: ['Frameworks'],
+  },
+
+  // Cloud & Infra
+  {
+    title: 'AWS (EC2, S3)',
+    competency: 5,
+    category: ['Cloud & Infra'],
+  },
+  {
+    title: 'Azure',
+    competency: 4,
+    category: ['Cloud & Infra'],
+  },
+  {
+    title: 'Docker & Containers',
+    competency: 4,
+    category: ['Cloud & Infra'],
+  },
+  {
+    title: 'Kubernetes',
+    competency: 4,
+    category: ['Cloud & Infra'],
+  },
+  {
+    title: 'Terraform',
+    competency: 4,
+    category: ['Cloud & Infra'],
+  },
+  {
+    title: 'Grafana & Observability',
+    competency: 5,
+    category: ['Cloud & Infra'],
+  },
+  {
+    title: 'Jenkins & CI/CD',
+    competency: 4,
+    category: ['Cloud & Infra'],
   },
 ].map((skill) => ({ ...skill, category: skill.category.sort() }));
 
-// this is a list of colors that I like. The length should be === to the
-// number of categories. Re-arrange this list until you find a pattern you like.
+// Vibrant, cohesive modern category colors
 const colors = [
-  '#6968b3',
-  '#37b1f5',
-  '#40494e',
-  '#515dd4',
-  '#e47272',
-  '#cc7b94',
-  '#3896e2',
-  '#c3423f',
-  '#d75858',
-  '#747fff',
-  '#64cb7b',
+  '#6366f1', // AI / GenAI - Indigo
+  '#0ea5e9', // Cloud & Infra - Sky Blue
+  '#10b981', // Data & Streaming - Emerald
+  '#8b5cf6', // Frameworks - Violet
+  '#f59e0b', // Languages & Core - Amber
 ];
 
 const categories = [
   ...new Set(skills.flatMap(({ category }) => category)),
 ].sort().map((category, index) => ({
   name: category,
-  color: colors[index],
+  color: colors[index % colors.length],
 }));
 
 export { categories, skills };
