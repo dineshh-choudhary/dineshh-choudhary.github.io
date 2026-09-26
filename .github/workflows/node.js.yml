@@ -4,8 +4,6 @@
 name: Node.js CI
 
 on:
-  push:
-    branches: [ main ]
   pull_request:
     branches: [ main ]
   workflow_dispatch:
@@ -13,8 +11,8 @@ on:
 jobs:
   build:
 
-    runs-on: ubuntu-20.04
-    timeout-minutes: 5
+    runs-on: macos-latest
+    timeout-minutes: 10
 
     strategy:
       matrix:
